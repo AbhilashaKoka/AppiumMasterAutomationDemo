@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="188" started-at="2020-10-16T15:06:24 IST" finished-at="2020-10-16T15:06:24 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f5958c9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="188" started-at="2020-10-16T15:06:24 IST" finished-at="2020-10-16T15:06:24 IST">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="beforeSuiteActivities()[pri:0, instance:runner.TestRunner@f5958c9]" name="beforeSuiteActivities" is-config="true" duration-ms="19" started-at="2020-10-16T15:06:23 IST" finished-at="2020-10-16T15:06:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteActivities -->
+        <test-method status="FAIL" signature="beforeClassActivities(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:runner.TestRunner@f5958c9]" name="beforeClassActivities" is-config="true" duration-ms="-1602840984017" started-at="2020-10-16T15:06:24 IST" finished-at="1970-01-01T05:30:00 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'platform' is required by BeforeTest on method beforeClassActivities but has not been marked @Optional or defined
+in C:\Users\10655479\AppData\Local\Temp\testng-eclipse--1128810111\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'platform' is required by BeforeTest on method beforeClassActivities but has not been marked @Optional or defined
+in C:\Users\10655479\AppData\Local\Temp\testng-eclipse--1128810111\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+at org.testng.TestRunner.run(TestRunner.java:580)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassActivities -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@f5958c9]" name="setUpClass" is-config="true" duration-ms="139" started-at="2020-10-16T15:06:24 IST" finished-at="2020-10-16T15:06:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="SKIP" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f5958c9]" name="runScenario" duration-ms="0" started-at="2020-10-16T15:06:24 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-16T15:06:24 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'platform' is required by BeforeTest on method beforeClassActivities but has not been marked @Optional or defined
+in C:\Users\10655479\AppData\Local\Temp\testng-eclipse--1128810111\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'platform' is required by BeforeTest on method beforeClassActivities but has not been marked @Optional or defined
+in C:\Users\10655479\AppData\Local\Temp\testng-eclipse--1128810111\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+at org.testng.TestRunner.run(TestRunner.java:580)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="SKIP" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f5958c9]" name="runScenario" duration-ms="0" started-at="2020-10-16T15:06:24 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-16T15:06:24 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'platform' is required by BeforeTest on method beforeClassActivities but has not been marked @Optional or defined
+in C:\Users\10655479\AppData\Local\Temp\testng-eclipse--1128810111\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'platform' is required by BeforeTest on method beforeClassActivities but has not been marked @Optional or defined
+in C:\Users\10655479\AppData\Local\Temp\testng-eclipse--1128810111\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+at org.testng.TestRunner.run(TestRunner.java:580)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="SKIP" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f5958c9]" name="runScenario" duration-ms="0" started-at="2020-10-16T15:06:24 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-16T15:06:24 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'platform' is required by BeforeTest on method beforeClassActivities but has not been marked @Optional or defined
+in C:\Users\10655479\AppData\Local\Temp\testng-eclipse--1128810111\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'platform' is required by BeforeTest on method beforeClassActivities but has not been marked @Optional or defined
+in C:\Users\10655479\AppData\Local\Temp\testng-eclipse--1128810111\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+at org.testng.TestRunner.run(TestRunner.java:580)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="SKIP" signature="afterActivities()[pri:0, instance:runner.TestRunner@f5958c9]" name="afterActivities" is-config="true" duration-ms="-1602840984199" started-at="2020-10-16T15:06:24 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActivities -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@f5958c9]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-10-16T15:06:24 IST" finished-at="2020-10-16T15:06:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="SKIP" signature="afterTestActivities()[pri:0, instance:runner.TestRunner@f5958c9]" name="afterTestActivities" is-config="true" duration-ms="-1602840984235" started-at="2020-10-16T15:06:24 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestActivities -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
